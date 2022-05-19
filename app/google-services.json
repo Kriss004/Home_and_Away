@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1094521413507",
+    "firebase_url": "https://fir-auth-fa312.firebaseio.com",
+    "project_id": "fir-auth-fa312",
+    "storage_bucket": "fir-auth-fa312.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094521413507:android:7894a780a4f65b6ca4e0b6",
+        "android_client_info": {
+          "package_name": "com.example.kriss.homeandaway"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1094521413507-839b133sup3qufo3gou56mqb64d97lta.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kriss.homeandaway",
+            "certificate_hash": "afd5b1ae5753d5bfa7aeafb17576a0b5998a3a83"
+          }
+        },
+        {
+          "client_id": "1094521413507-7lk4gb5km7p20f1uouhojocg5pbf2frj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4kMeZDQP0SE-piccbFLqixuUvhrMA6FQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1094521413507-7lk4gb5km7p20f1uouhojocg5pbf2frj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

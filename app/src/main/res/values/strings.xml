@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Home and Away</string>
+    <string name="textview">TextView</string>
+    <string name="destination_s_image">Destination\'s image</string>
+    <string name="login_here">LOGIN HERE</string>
+    <string name="enter_email_address">Enter email address</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="login">LOGIN</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an Account? Sign Up</string>
+    <string name="sign_up_here">SIGN UP HERE</string>
+    <string name="enter_your_name">Enter your Name</string>
+    <string name="enter_your_phone_number">Enter your phone number</string>
+    <string name="enter_your_id_number">Enter your Id number</string>
+    <string name="enter_your_email_address">Enter your email address</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="confirm_your_password">Confirm your password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="already_have_an_account_login">Already have an account? Login</string>
+</resources>

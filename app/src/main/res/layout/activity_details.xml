@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".DetailsActivity">
+
+    <TextView
+        android:id="@+id/tvDestName"
+        android:layout_width="182dp"
+        android:layout_height="37dp"
+        android:gravity="center"
+        android:text="@string/textview"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.008" />
+
+    <ImageView
+        android:id="@+id/ivDest"
+        android:layout_width="286dp"
+        android:layout_height="176dp"
+        android:background="@drawable/background"
+        android:contentDescription="@string/destination_s_image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDestName"
+        app:layout_constraintVertical_bias="0.041"
+        app:srcCompat="@drawable/boma_hotel" />
+
+    <TextView
+        android:id="@+id/tvPricelabel"
+        android:layout_width="142dp"
+        android:layout_height="63dp"
+        android:gravity="center"
+        android:text="Price per night for one room:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@color/cardview_light_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.41" />
+
+    <TextView
+        android:id="@+id/tvPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:background="@color/cardview_light_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.873"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.409" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="365dp"
+        android:layout_height="289dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.347"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivDest"
+        app:layout_constraintVertical_bias="0.831">
+
+        <EditText
+            android:id="@+id/etCheckin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Check-in date"
+            android:inputType="date"
+            android:minHeight="48dp"
+            android:textColorHint="#BBDEFB" />
+
+        <EditText
+            android:id="@+id/etCheckout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Check-out date"
+            android:inputType="date"
+            android:minHeight="48dp"
+            android:textColorHint="#BBDEFB" />
+
+        <EditText
+            android:id="@+id/etAdults"
+            android:layout_width="325dp"
+            android:layout_height="0dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Number of Adults"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etChildren"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Number of Children"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textColorHint="#BBDEFB" />
+
+        <EditText
+            android:id="@+id/etRooms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Number of Rooms Required"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textColorHint="#BBDEFB" />
+
+        <Button
+            android:id="@+id/btReserve"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MAKE RESERVATION" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
