@@ -17,81 +17,107 @@
         android:text="@string/sign_up_here"
         android:textColor="@color/logoGreen"
         android:textSize="30sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
+        android:layout_weight="1"
         android:orientation="vertical">
 
         <EditText
             android:id="@+id/etName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:autofillHints=""
             android:ems="10"
             android:hint="@string/enter_your_name"
-            android:layout_marginTop="10dp"
             android:inputType="textPersonName"
-            android:autofillHints="" />
+            android:minHeight="48dp"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            tools:ignore="VisualLintTextFieldSize" />
 
         <EditText
             android:id="@+id/etPhone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:autofillHints=""
             android:ems="10"
             android:hint="@string/enter_your_phone_number"
-            android:layout_marginTop="10dp"
             android:inputType="phone"
-            android:autofillHints="" />
+            android:minHeight="48dp"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            tools:ignore="VisualLintTextFieldSize" />
 
         <EditText
             android:id="@+id/etID"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:autofillHints=""
             android:ems="10"
             android:hint="@string/enter_your_id_number"
-            android:layout_marginTop="10dp"
             android:inputType="textPersonName"
-            android:autofillHints="" />
+            android:minHeight="48dp"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            tools:ignore="VisualLintTextFieldSize" />
 
         <EditText
             android:id="@+id/etEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:autofillHints=""
             android:ems="10"
             android:hint="@string/enter_your_email_address"
-            android:layout_marginTop="10dp"
             android:inputType="textEmailAddress"
-            android:autofillHints="" />
+            android:minHeight="48dp"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            tools:ignore="VisualLintTextFieldSize" />
 
         <EditText
             android:id="@+id/etPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:autofillHints=""
             android:ems="10"
             android:hint="@string/enter_password"
-            android:layout_marginTop="10dp"
             android:inputType="textPassword"
-            android:autofillHints="" />
+            android:minHeight="48dp"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            tools:ignore="VisualLintTextFieldSize" />
 
         <EditText
             android:id="@+id/etRepass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:autofillHints=""
             android:ems="10"
             android:hint="@string/confirm_your_password"
-            android:layout_marginTop="10dp"
             android:inputType="textPassword"
-            android:autofillHints="" />
+            android:minHeight="48dp"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            tools:ignore="VisualLintTextFieldSize" />
 
         <Button
             android:id="@+id/btnRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/sign_up" />
+            android:text="@string/sign_up"
+            tools:ignore="VisualLintButtonSize" />
 
         <TextView
             android:id="@+id/tvMoveLogin"
@@ -101,7 +127,8 @@
             android:gravity="center"
             android:text="@string/already_have_an_account_login"
             android:textColor="@color/logoRed"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            tools:ignore="TextContrastCheck" />
 
     </LinearLayout>
 </LinearLayout>

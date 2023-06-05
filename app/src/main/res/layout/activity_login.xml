@@ -37,27 +37,36 @@
             android:id="@+id/etlgEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:autofillHints=""
             android:ems="10"
             android:hint="@string/enter_email_address"
-            android:layout_marginTop="15dp"
             android:inputType="textEmailAddress"
-            android:autofillHints="" />
+            android:minHeight="48dp"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            tools:ignore="VisualLintTextFieldSize" />
 
         <EditText
             android:id="@+id/etlgPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:autofillHints=""
             android:ems="10"
             android:hint="@string/enter_your_password"
-            android:layout_marginTop="15dp"
             android:inputType="textPassword"
-            android:autofillHints="" />
+            android:minHeight="48dp"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            tools:ignore="VisualLintTextFieldSize" />
 
         <Button
             android:id="@+id/btnlogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/login" />
+            android:text="@string/login"
+            tools:ignore="VisualLintButtonSize" />
     </LinearLayout>
 
     <TextView
@@ -68,7 +77,8 @@
         android:gravity="center"
         android:text="@string/don_t_have_an_account_sign_up"
         android:textColor="@color/logoRed"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        tools:ignore="TextContrastCheck" />
 
 
 </LinearLayout>

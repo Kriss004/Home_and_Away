@@ -10,6 +10,7 @@ import kotlinx.android.synthetic.main.activity_login.*
 
 class LoginActivity : AppCompatActivity() {
 
+    val email=etlgEmail.text.toString()
     private var mAuth=FirebaseAuth.getInstance()
 
 
@@ -32,6 +33,9 @@ class LoginActivity : AppCompatActivity() {
 
 
     }
+
+
+
 
 
     private fun login(){

@@ -10,11 +10,11 @@
 
     <TextView
         android:id="@+id/tvDestName"
-        android:layout_width="182dp"
-        android:layout_height="37dp"
+        android:layout_width="321dp"
+        android:layout_height="47dp"
         android:gravity="center"
         android:text="@string/textview"
-        android:textColor="#000000"
+        android:textColor="@color/logoGreen"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -42,17 +42,19 @@
         android:id="@+id/tvPricelabel"
         android:layout_width="142dp"
         android:layout_height="63dp"
+        android:background="@drawable/background"
         android:gravity="center"
         android:text="Price per night for one room:"
+        android:textColor="@color/logoGreen"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:background="@color/cardview_light_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.41" />
+        app:layout_constraintVertical_bias="0.41"
+        tools:ignore="TextSizeCheck" />
 
     <TextView
         android:id="@+id/tvPrice"
@@ -62,7 +64,8 @@
         android:text="TextView"
         android:textSize="22sp"
         android:textStyle="bold"
-        android:background="@color/cardview_light_background"
+        android:textColor="@color/logoGreen"
+        android:background="@drawable/background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.873"
@@ -91,7 +94,8 @@
             android:hint="Check-in date"
             android:inputType="date"
             android:minHeight="48dp"
-            android:textColorHint="#BBDEFB" />
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent" />
 
         <EditText
             android:id="@+id/etCheckout"
@@ -102,16 +106,20 @@
             android:hint="Check-out date"
             android:inputType="date"
             android:minHeight="48dp"
-            android:textColorHint="#BBDEFB" />
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent" />
 
         <EditText
             android:id="@+id/etAdults"
-            android:layout_width="325dp"
-            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:ems="10"
             android:gravity="center"
             android:hint="Number of Adults"
-            android:inputType="number" />
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent" />
 
         <EditText
             android:id="@+id/etChildren"
@@ -122,7 +130,8 @@
             android:hint="Number of Children"
             android:inputType="number"
             android:minHeight="48dp"
-            android:textColorHint="#BBDEFB" />
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent" />
 
         <EditText
             android:id="@+id/etRooms"
@@ -133,13 +142,15 @@
             android:hint="Number of Rooms Required"
             android:inputType="number"
             android:minHeight="48dp"
-            android:textColorHint="#BBDEFB" />
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent" />
 
         <Button
             android:id="@+id/btReserve"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="MAKE RESERVATION" />
+            android:text="MAKE RESERVATION"
+            tools:ignore="VisualLintButtonSize" />
 
     </LinearLayout>
 

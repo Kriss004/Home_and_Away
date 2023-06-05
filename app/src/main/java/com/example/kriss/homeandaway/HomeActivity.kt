@@ -2,12 +2,12 @@ package com.example.kriss.homeandaway
 
 import android.content.Context
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_home.*
 import kotlinx.android.synthetic.main.ticket.view.*
 
@@ -44,8 +44,9 @@ class HomeActivity : AppCompatActivity() {
 
     }
 
-    class DestinationAdapter(private var destinationlist: ArrayList<Destination>, var context: Context?) :
+    class DestinationAdapter(private var destinationlist: ArrayList<Destination>, private var context: Context?) :
         BaseAdapter() {
+
 
 
         override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
